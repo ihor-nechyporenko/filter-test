@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-bg-primary;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+a,
+button {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.38;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px 15px;
+  max-width: 1440px;
+  background-color: $color-bg-primary;
+
+  @media (min-width: 768px) {
+    display: flex;
+    padding: 40px 15px;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 40px 34px 40px 92px;
+  }
+}
